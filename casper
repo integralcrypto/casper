@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeFi Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>DeFi Dashboard</h1>
+        <p>Monitor and manage your DeFi portfolio on Base</p>
+    </header>
+
+    <section id="wallet">
+        <h2>Wallet Balance</h2>
+        <p>Balance: <span id="balance">0.00</span> ETH</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Your Assets</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Asset</th>
+                    <th>Amount</th>
+                    <th>Value (ETH)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Staked ETH</td>
+                    <td>2.5</td>
+                    <td>7.5</td>
+                </tr>
+                <tr>
+                    <td>Liquidity Pool Token</td>
+                    <td>50</td>
+                    <td>1.25</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="yield">
+        <h2>Yield</h2>
+        <p>Total Yield: <span id="yield">0.35</span> ETH</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 DeFi Dashboard | Powered by Base</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
