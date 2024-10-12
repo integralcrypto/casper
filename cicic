@@ -1,0 +1,13 @@
+document.addEventListener('DOMContentLoaded', function() {
+    // Имитация обновления данных
+    const balanceElement = document.getElementById('balance');
+    const yieldElement = document.getElementById('yield');
+
+    // Имитация данных
+    let balance = 10.0; // ETH
+    let totalYield = 0.5; // ETH
+
+    // Обновляем отображаемые значения
+    balanceElement.textContent = balance.toFixed(2);
+    yieldElement.textContent = totalYield.toFixed(2);
+});
